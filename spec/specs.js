@@ -15,11 +15,11 @@ describe('pingpong', function() {
     expect(pingPong(15)).to.eql([1,2,'ping',4,'pong','ping',7,8,'ping','pong',11,'ping',13,14,'pingpong']);
   });
 
-  it("only accepts positive integers as input (not negative interg)", function() {
-    expect(pingPong(-2)).to.equal("Please enter a number over 0.")
+  it("only accepts positive integers as input (not negative integer)", function() {
+    expect(pingPong(-2)).to.eql(["Please enter a number over 0."])
   });
 
   it("only accepts positive integers as input (not strings)", function() {
-    expect(pingPong("qwerty")).to.eql("Please enter a number over 0.");
+    expect(pingPong("qwerty")).to.eql(["Please enter a number over 0."]);
   });
 });

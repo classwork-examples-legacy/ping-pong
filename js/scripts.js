@@ -3,7 +3,7 @@ var pingPong = function(numberSelected) {
   var numberRange = [];
 
   if (isNaN(numberParsed)||numberParsed < 0) {
-    return "Please enter a number over 0."
+    numberRange.push("Please enter a number over 0.")
   }
 
   for (var i = 1; i <= numberParsed; i++) {
