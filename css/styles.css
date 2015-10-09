@@ -1,0 +1,22 @@
+.main-content {
+  margin-top: 25px;
+  padding: 15px;
+  margin-left: 300px;
+}
+.sidebar {
+  float: left;
+  width: 275px;
+  height: 600px;
+  background: DarkSeaGreen;
+  margin: 2px;
+  padding: 15px;
+  color: wheat;
+}
+
+.sidebar h3 {
+  color: black;
+}
+
+.sidebar p {
+  color: white;
+}
