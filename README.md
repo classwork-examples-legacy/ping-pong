@@ -17,10 +17,6 @@ Install ping-pong by cloning this repository:
 https://github.com/sampleRepo/ping-pong
 ```
 
-Support
--------
-If you have any questions or issues using this app, contact kelly@epicodus.com
-
 License
 -------
-MIT License. Copywright 2015 Epicodus 
+MIT License. Copywright 2015 Epicodus
